@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background: #A723AC;
+background: -webkit-linear-gradient(right, #A723AC, #6C940C);
+background: -moz-linear-gradient(right, #A723AC, #6C940C);
+background: linear-gradient(to left, #A723AC, #6C940C);
+}
+
+
+
+#clock{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.timeWrapper{
+    display: flex;
+}
+
+.time{
+    margin-right: 10px;
+    background-color: #6C940C;
+    padding: 60px;
+    border-radius: 15px;
+    font-size: 50px;
+    font-family: 'Patrick Hand', cursive;
+    box-shadow: 0px 10px 5px black;
+   
+}
+
+
+.ara{
+    color: rgb(117, 82, 5);
+    padding: 10px;
+    font-size: 6rem;
+}
+
+
+#red{
+    color: orange;
+    padding: 10px;
+    font-size: 6rem;
+}
+
+
+/* MOBILE DESIGN */
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .time{
+        margin-right: 10px;
+        background-color: #6C940C;
+        margin: 5px;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        font-size: 50px;
+        font-family: 'Patrick Hand', cursive;
+        box-shadow: 0px 10px 5px black;
+    
+       
+    }
+
+
+
+.timeWrapper{
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+
+
+}
